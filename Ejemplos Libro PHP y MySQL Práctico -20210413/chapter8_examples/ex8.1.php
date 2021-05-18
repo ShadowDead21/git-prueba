@@ -15,7 +15,7 @@
 
 <?php
 
-  $products[]='gentle soap';<br>
+  $products[]='gentle soap';
   $products[]='gentle soap';
   echo "\$products[4] is $products[4].<br>\n";
 
