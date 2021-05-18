@@ -4,7 +4,7 @@
 <?php
 
   $products=array('floral talc','body mist', 'perfumed powder','bath gel');
-  echo "<b>\$products is $products.<br>\n";
+  echo "\$products is $products.<br>\n";
   echo "\$products[0] is $products[0].<br>\n";
   echo "\$products[1] is $products[1].<br>\n";
   echo "\$products[2] is $products[2].<br>\n";
