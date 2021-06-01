@@ -12,11 +12,11 @@ Agregando de Datos
   'apellido'=> $apellido,
   'telefono'=> $telefono,
   );
- echo $persona['nombre']; 
- echo '/';
- echo $persona['apellido'];
- echo '/';
- echo $persona['telefono'];
+foreach($persona as $posicion=>$jugador)
+	{
+	echo "  " . $posicion . " es " . $jugador;
+	echo "<br>";
+	}
 ?>
 </pre>
 </b>
